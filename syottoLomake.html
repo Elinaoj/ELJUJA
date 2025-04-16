@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tietojoen syöttölomake</title>
+</head>
+<body>
+    <h1>Lisää myyntiartikkeli kirjoittamalla sen nimi ja hinta</h1>
+    <form action="/submit" method="post">
+        <label for="name">Myyntiartikkeli:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Hinta:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Lisätietoja:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <button type="button">Tallenna</button>
+    </form>
+</body>
+</html>
